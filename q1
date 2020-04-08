@@ -1,6 +1,5 @@
 1、两数互换
-int i = 1;
-int j = 2;
-int temp = i;
-i = j;
-j = temp;
+int i = 5, j = 21;
+i = i ^ j;
+j = i ^ j;
+i = i ^ j;
